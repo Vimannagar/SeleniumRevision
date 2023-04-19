@@ -88,5 +88,6 @@
 	<classpathentry kind="lib" path="F:/Desktop/VimanNagar/Revision session/selenium-java-4.8.2/selenium-support-4.8.2.jar"/>
 	<classpathentry kind="lib" path="F:/Desktop/VimanNagar/Revision session/selenium-java-4.8.2/selenium-support-4.8.2-sources.jar"/>
 	<classpathentry kind="lib" path="F:/Desktop/VimanNagar/Revision session/selenium-java-4.8.2/slf4j-api-2.0.7.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

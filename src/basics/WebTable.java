@@ -25,12 +25,22 @@ public class WebTable {
 		
 		List<WebElement> allelement = driver.findElements(By.xpath("//*[@class='dataTable']//tbody//tr//td"));
 		
+		int i =1;
+		
 		
 		for(WebElement elementvalue :allelement)
 		{
 			String text = elementvalue.getText();
 			
-			System.out.print(text);
+			System.out.print(text+" ");
+			i++;
+			
+			if(i==5)
+			{
+				System.out.println();
+				i = 1;
+			}
+			
 		}
 		
 //		WAP to print the values inside the console as they appears over web
