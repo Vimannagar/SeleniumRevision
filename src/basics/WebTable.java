@@ -33,14 +33,15 @@ public class WebTable {
 			String text = elementvalue.getText();
 			
 			System.out.print(text+" ");
-			i++;
-			
+						
 			if(i==5)
 			{
 				System.out.println();
 				i = 1;
 			}
-			
+			else {
+					i++;
+				 }
 		}
 		
 //		WAP to print the values inside the console as they appears over web
