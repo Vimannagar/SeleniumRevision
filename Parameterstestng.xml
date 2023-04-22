@@ -2,8 +2,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
-<test thread-count="5" name="Test">
+<test thread-count="5" name="ChromeTest">
 <parameter name="username" value="user123"></parameter>
+<parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="testngdisc.Parameterization"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ <test thread-count="5" name="FirefoxTest">
+<parameter name="username" value="user123"></parameter>
+<parameter name="browser" value="Firefox"></parameter>
     <classes>
       <class name="testngdisc.Parameterization"/>
     </classes>
